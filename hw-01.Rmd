@@ -1,0 +1,66 @@
+---
+title: "Homework 1"
+author: Aslı Nil Aykal 20080470
+---
+
+```{r global_options, include=FALSE}
+# Do not delete or modify this chunk.
+# We will cover chunk options later.
+# This is required for Question 7
+library(knitr)
+opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
+```
+
+**Question 1** With Markdown write a sentence that has one word in bold.
+
+Economic problems and growing concerns about inequality in the wake of the financial crisis have heightened public awareness of tax avoidance by **global** companies.
+
+**Question 2** With Markdown write a sentence that has one word in italic.
+
+Economic globalization may be defined as the intercontinental exchange of products, *services*, and labor.
+
+**Question 3** With Markdown write a sentence that has one word in italic bold.
+
+Military globalization is characterized by ***extensive*** as well as intensive networks of military force.
+
+**Question 4** With Markdown write an unordered list with three items.
+
+Some of the mistakes students make while studying:
+
+\* Listening to music.<br> \* Eating something.<br> \* Not reading the notes taken out.<br>
+
+**Question 5** With Markdown write an ordered list with three items.
+
+Things to do before starting the lesson are as follows:
+
+1.  Cleaning up the environment.<br>
+2.  Adjusting the ambient light at the right angle.<br>
+3.  Obtaining the necessary materials.<br>
+
+**Question 6** With Markdown give a link to your favorite webpage.
+
+This is my favorite [webpage.](https://www.youtube.com/)
+
+**Question 7** With Markdown add a cat picture.
+
+![](images/indir-01.jpg)
+
+**Question 8** With Rmarkdown insert a code chunk and give an example of a simple mathematical calculation in it.
+
+```{r}
+x <- 276
+y <- 89
+x + y /2
+```
+
+**Question 9** With $LaTeX$ write your favorite equation in block form.
+
+$$
+\sum_{k=1}^{n}\frac{1}{n^2}=\frac{\pi^2}{6}
+$$
+
+**Question 10** In a code chunk calculate 3 + 4.
+
+```{r}
+3 + 4
+```
